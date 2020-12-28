@@ -1,0 +1,52 @@
+.formBill-formic{
+    
+}
+.formBill-formik-addProduct{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.formik-formBill-addProBtn{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.formBill-formik-select{
+    width: 180px;
+    height: 53px;
+    margin: 8px;
+}
+
+.formik-formBill-makeBill{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 25px 10px 25px 25px;
+}
+
+.formik-formBill-submit-btn{
+    width: 150px;
+    height: 50px;
+}
+
+.formik-formBill-makeBillAction{
+    display: inline-block;
+}
+
+.formik-formBill-makeBillAction > button {
+    margin: 5px;
+}
+
+.makeBill-add-cus-btn{
+    margin-top: 4px;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    /* justify-content: center; */
+}

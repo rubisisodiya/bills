@@ -1,0 +1,383 @@
+h1 {
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet
+}
+
+.header {
+    background: peru;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:8vh;
+    padding-left:5px;
+}
+
+.header .logo{
+    display:flex;
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+    width:20%;
+}
+
+.logo .MuiSvgIcon-root {
+    margin: 1.5vmin;
+}
+
+.headerLinks {
+    max-width: 80%;
+    margin-right:5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    padding:5px;
+    font-size: min(3.5vmin, 1em);
+}
+
+.home {
+    height:70vh;
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+}
+
+.homeMessage {
+    width:70%;
+    font-size: 3rem;
+    font-weight: bold;
+    padding:20px;
+}
+
+.footer {
+    background-color: peru; 
+    min-height:20vh;
+    width:100%;
+    padding:20px;
+    color: black;
+}
+
+.appContent {
+    width: 100%;
+    min-height: 90vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.loginPanel {
+    margin-top:50px;
+    margin-left: 500px;
+    border: 5px solid black;
+    /* border: 1px solid #6fb98f; */
+    /* border: 2px solid #ffd800; */
+    border-radius: 7px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:70vh;
+    width:40%;
+    min-width:350px;
+    max-width: 400px;
+    padding:10px;
+    background:rgb(192, 141, 91)
+}
+
+.loginPanel h3 {
+    margin:0;
+    margin-bottom:5px;
+    color: black;
+    text-emphasis-style: bold;
+}
+
+.loginPanel hr {
+    width:30%;
+    margin:0;
+    padding:0
+}
+
+.loginPanel form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding:50px;
+    flex-grow: 2;
+}
+
+.loginPanel a {
+    font-size: 0.8rem;
+}
+
+.loginPanel form .MuiTextField-root {
+    width:85%;
+    max-width:500px;
+}
+
+.MuiTextField-root {
+    margin:7px !important;
+}
+
+.MuiInputBase-input {
+    font-size: 0.9rem !important;
+}
+
+.MuiFormLabel-root {
+    color:burlywood;
+    font-size: 1rem !important;
+    text-transform: capitalize;
+}
+
+.MuiFormLabel-root.Mui-focused{
+    color: black;
+}
+
+.MuiInput-underline:before {
+    border-bottom: 1px solid black
+}
+
+.MuiInput-underline:after {
+    border: 1px solid black;
+}
+
+button {
+    font-size:min(4vmin, 16px) !important; 
+    margin:10px;
+    padding:5px;
+    color: #782c2c !important;
+    width: 85%;
+    margin-top:25px;
+    background-color: #c45858 !important;
+    border: 1px solid #860a0a !important;
+    max-width:280px;
+}
+
+button:hover {
+    background-color: #dbf0f0 !important;
+}
+
+.box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.businessAddContainer {
+    border-radius: 50px;
+    height:70vh;
+    width:70%;
+    background-color: #f1f4f3;
+    border:2px solid white;
+}
+
+.businessAddBox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:50%;
+    height:100%;
+}
+
+.businessAddBox a {
+    font-size: 2rem;
+}
+
+.businessCardLink, .businessInvite {
+    border-radius: 15px;
+    width: calc(50% + 10em);
+    max-width: 80%;
+    min-height:100px;
+    margin:10px;
+    background: burlywood;
+    color: brown;
+    font-size: min(3vmin, 12px);
+}
+
+.businessInvite {
+    background: #dbf0f0;
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.businessInvite h3 {
+    margin-bottom: 0px;
+    margin-top:5px;
+    font-size:4.2vmin;
+}
+
+.businessCard {
+    width: calc(100% - 2em);
+    padding-left:10px;
+    padding-bottom:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.businessInvite .businessCard {
+    padding-top:10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.businessInvite .businessCard div:first-child {
+    width: 100%;
+}
+
+.businessCard button {
+    margin-right: 0px !important;
+    margin-top:5px !important;
+    margin-bottom: 5px !important;
+    width:85%
+}
+
+.businessCard h2{
+    font-size: 7vmin;
+    margin:10px;
+    margin-bottom: 0px;
+}
+
+.businessCard span{
+    color: #b96fa6
+}
+
+.MuiFab-root {
+    position:absolute !important;
+    bottom:10px;
+    right:10px;
+}
+
+.businessForm {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.businessForm .MuiTextField-root {
+    width:100%;
+    max-width:400px;
+}
+
+.MuiDrawer-paperAnchorLeft {
+    width: min(60vw, 230px)
+}
+
+.contentHeader {
+    font-size: 6vmin;
+    width:100%;
+    text-align: center;
+    height:60px;
+}
+
+.contentHeader .headerText {
+    padding-left:44px;
+    line-height:60px;
+}
+
+.tableButton {
+    width:40px;
+    height:40px;
+    border: 4px solid black !important;
+    margin-top: 10px !important;
+    float: right
+}
+
+.businessContent {
+    max-width:900px;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-top:5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color :#782c2c;}
+
+.detailContain{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.employeeAdd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.employeeAdd input {
+    margin: 8px;
+    padding: 4px;
+}
+
+.table-action-btn{
+    width: 70px;
+}
+
+.customerAdd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    background-color: #6fb98f;
+}
+
+.customerAdd input,textarea{
+    margin: 8px;
+    padding: 4px;
+}
+
+.billTo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 450px;
+}
+
+.product-body {
+    display: flex;
+    flex-direction: column;
+}
+.product-body button {
+    height: 40px;
+    width: 70px;
+}
+
+.ReactModal__Overlay--after-open{
+    z-index: 1;
+}
+.form h2{
+    background-color: blue;
+}
